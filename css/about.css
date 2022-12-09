@@ -1,0 +1,93 @@
+    /*
+        =================== 
+            HERO SECTION
+        ===================  
+    */ 
+    
+.hero-section {
+    color: #151515;
+    background: none;
+    padding-top: 1.625em;
+}
+
+.hero-img {
+    width: 182px;
+}
+
+.hero-heading,
+.hero-text {
+    text-shadow: none;
+}
+
+.hero-heading {
+    margin-top: 0.794em;
+    font-size: 2.125rem;
+}
+
+.hero-text {
+    margin: 1em 0 3.125em 0;
+}
+
+.recent-post-text {
+    margin: 0;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1.6875em;
+}
+
+
+/*
+    =================
+        MEDIA QUERY
+    =================
+*/
+
+@media (min-width: 786px) {
+    .hero-section {
+        height: max-content;
+    }
+    
+    .about-info {
+        display: flex;
+        align-items: center;
+        gap: 2.0625em;
+    }
+    
+    .hero-heading {
+        font-size: 2.25rem;
+    }
+    
+    .hero-text {
+        margin: 0.625em 0 0 0;
+        width: 100%;
+    }
+    
+    .hero-subheading:first-of-type {
+        margin-top: 2em;
+    }
+    
+    .hero-subheading {
+        padding: 0 3.2em;    
+    }
+    
+    .hero-answer {
+        padding: 0 5.04167em;
+    }
+    
+    .blog-section {
+        margin-top: 0;
+    }
+    
+    .recent-post-text {
+        font-size: 1.5rem;
+    }
+    
+    .hero-answer {
+        margin-top: 0;
+    }
+    
+    .blog-wrapper {
+        margin-top: 0;
+    }
+}
